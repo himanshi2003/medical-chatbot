@@ -1,0 +1,13 @@
+prefix=/Users/himanshiaggarwal/Downloads/Complete-Langchain-Tutorials-main/chatmultipledocuments/veny
+exec_prefix=/Users/himanshiaggarwal/Downloads/Complete-Langchain-Tutorials-main/chatmultipledocuments/veny
+libdir=/Users/himanshiaggarwal/Downloads/Complete-Langchain-Tutorials-main/chatmultipledocuments/veny/lib
+sharedlibdir=/Users/himanshiaggarwal/Downloads/Complete-Langchain-Tutorials-main/chatmultipledocuments/veny/lib
+includedir=/Users/himanshiaggarwal/Downloads/Complete-Langchain-Tutorials-main/chatmultipledocuments/veny/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
